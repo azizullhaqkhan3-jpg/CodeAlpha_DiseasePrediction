@@ -1,0 +1,18 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Dataset and large generated files
+data/*
+!data/.gitkeep
+
+# Local model files (uncomment if model files are too large)
+# models/*.joblib
+
+# Temporary files
+.ipynb_checkpoints/
+.DS_Store
+models/credit_model.joblib
